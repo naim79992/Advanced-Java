@@ -1,0 +1,32 @@
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+   <bean id="dev" class="com.example.Dev">
+   </bean>
+
+   <bean id="laptop" class="com.example.Laptop">
+   </bean>
+   <bean id="dev1" class="com.example.Dev">
+   <!-- setter injection -->
+   <property name="num" value="12"/> 
+   <!-- constructor injection -->
+   <constructor-arg index="0" value="14"/>
+   <constructor-arg index="1" value="15"/>
+   </bean>
+
+<!-- Spring injects the `lap1` (Laptop object) into the constructor of `dev2` bean — this is called **constructor injection**. ✅ -->
+<!-- setter injection for ref var -->
+   <bean id="dev2" class="com.example.Dev">
+   <constructor-arg ref="lap1"/>
+   </bean>
+   <bean id="lap1" class="com.example.Laptop">
+   </bean>
+   <!-- constructor injection of ref var -->
+  <bean id="dev3" class="com.example.Dev">
+   <constructor-arg ref="lap1"/>
+   </bean>
+</beans>
