@@ -2,11 +2,11 @@ package com.example.ModelViewController.model;
 
 import org.springframework.stereotype.Component;
 
-// import lombok.AllArgsConstructor;
-// import lombok.Data;
+import lombok.AllArgsConstructor;
+import lombok.Data;
 
-// @Data
-// @AllArgsConstructor
+@Data
+@AllArgsConstructor
 @Component
 public class Product {
      public Product() {
@@ -15,35 +15,31 @@ public class Product {
      private int prodId;
      private String prodName;
      private int price;
+     
 
-     public int getProdId() {
-          return prodId;
-     }
+     // public int getProdId() {
+     //      return prodId;
+     // }
 
-     public String getProdName() {
-          return prodName;
-     }
+     // public String getProdName() {
+     //      return prodName;
+     // }
 
-     public int getPrice() {
-          return price;
-     }
+     // public int getPrice() {
+     //      return price;
+     // }
 
-     public void setProdName(String prodName) {
-          this.prodName = prodName;
-     }
+     // public void setProdName(String prodName) {
+     //      this.prodName = prodName;
+     // }
 
-     public void setPrice(int price) {
-          this.price = price;
-     }
+     // public void setPrice(int price) {
+     //      this.price = price;
+     // }
 
-     public void setProdId(int prodId) {
-          this.prodId = prodId;
-     }
+     // public void setProdId(int prodId) {
+     //      this.prodId = prodId;
+     // }
 
-     public Product(int prodId, String prodName, int price) {
-          this.prodId = prodId;
-          this.prodName = prodName;
-          this.price = price;
-     }
 
 }

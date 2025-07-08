@@ -1,0 +1,66 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+
+
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "AutowireExampleApplication",
+            "request": "launch",
+            "mainClass": "com.example.AutowireExample.AutowireExampleApplication",
+            "projectName": "AutowireExample"
+        },
+        {
+            "type": "java",
+            "name": "DiExampleApplication",
+            "request": "launch",
+            "mainClass": "com.example.DI_Example.DiExampleApplication",
+            "projectName": "DI_Example"
+        },
+        {
+            "type": "java",
+            "name": "DiApplication",
+            "request": "launch",
+            "mainClass": "com.example.DI.DiApplication",
+            "projectName": "DI"
+        },
+        {
+            "type": "java",
+            "name": "MvcApplication",
+            "request": "launch",
+            "mainClass": "com.example.MVC.MvcApplication",
+            "projectName": "MVC"
+        },
+        {
+            "type": "java",
+            "name": "ModelViewControllerApplication",
+            "request": "launch",
+            "mainClass": "com.example.ModelViewController.ModelViewControllerApplication",
+            "projectName": "ModelViewController"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "com.example.App",
+            "projectName": "constructor-setter_injection_spring"
+        },
+        {
+            "type": "java",
+            "name": "App(1)",
+            "request": "launch",
+            "mainClass": "com.example.App",
+            "projectName": "demo_spring"
+        }
+    ]
+}
