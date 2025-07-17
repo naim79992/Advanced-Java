@@ -9,4 +9,3 @@ public class ModelViewControllerApplication {
 		SpringApplication.run(ModelViewControllerApplication.class, args);
 	}
 }
-
