@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SpringSecurityApplication",
+            "request": "launch",
+            "mainClass": "com.example.SpringSecurity.SpringSecurityApplication",
+            "projectName": "SpringSecurity"
+        },
+        {
+            "type": "java",
             "name": "CrudApplication",
             "request": "launch",
             "mainClass": "com.example.CRUD.CrudApplication"
